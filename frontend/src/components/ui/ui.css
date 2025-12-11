@@ -1,0 +1,38 @@
+.stat-card {
+  background: linear-gradient(145deg, #0f2a3d, #0c1f30);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 1rem;
+  color: #e7edf7;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: rgba(7, 14, 22, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #dfe7f1;
+}
+
+th,
+td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+}
+
+th {
+  background: rgba(255, 255, 255, 0.04);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+}
+
+tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
