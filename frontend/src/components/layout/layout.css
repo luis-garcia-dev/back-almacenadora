@@ -1,0 +1,85 @@
+.sidebar {
+  background: linear-gradient(180deg, #0b1b2b 0%, #0f273a 100%);
+  color: #e9ecf2;
+  padding: 1.5rem;
+  min-height: 100vh;
+  width: 230px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #b7c4d5;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 0.35rem;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: rgba(255, 165, 0, 0.08);
+}
+
+.nav-link.active {
+  background: linear-gradient(90deg, #f59e0b, #f97316);
+  color: #0a1623;
+  font-weight: 700;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background: rgba(12, 24, 36, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+.topbar-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.badge {
+  background: rgba(76, 182, 255, 0.15);
+  color: #7cd2ff;
+  padding: 0.35rem 0.65rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+.ghost {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: #e7edf7;
+  padding: 0.45rem 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dashboard-shell {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.dashboard-content {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #08111c 0%, #0f1c2d 100%);
+  min-height: 100vh;
+}
