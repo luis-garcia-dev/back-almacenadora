@@ -1,0 +1,32 @@
+:root {
+  color: #e7edf7;
+  background-color: #0a1421;
+}
+
+body {
+  margin: 0;
+  background-color: #0a1421;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 0.35rem 0;
+}
+
+.muted {
+  color: #9fb6d5;
+  font-size: 0.95rem;
+}
+
+.grid {
+  display: grid;
+}
